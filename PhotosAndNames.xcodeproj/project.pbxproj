@@ -51,10 +51,10 @@
 		DF32A08428819FF800389DBB /* PhotosAndNames */ = {
 			isa = PBXGroup;
 			children = (
+				DF32A08B28819FFA00389DBB /* Preview Content */,
+				DF32A08928819FFA00389DBB /* Assets.xcassets */,
 				DF32A08528819FF800389DBB /* PhotosAndNamesApp.swift */,
 				DF32A08728819FF800389DBB /* ContentView.swift */,
-				DF32A08928819FFA00389DBB /* Assets.xcassets */,
-				DF32A08B28819FFA00389DBB /* Preview Content */,
 			);
 			path = PhotosAndNames;
 			sourceTree = "<group>";
@@ -270,6 +270,8 @@
 				DEVELOPMENT_TEAM = 7Z2WHPKU8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to access your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +301,8 @@
 				DEVELOPMENT_TEAM = 7Z2WHPKU8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to access your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
